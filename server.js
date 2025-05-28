@@ -1,6 +1,8 @@
 const express = require("express");
 const app = express();
 const path = require("path");
+const cors = require("cors");
+const { logger } = require("./middleware/logEvents");
 const PORT = process.env.PORT || 3500;
 
 const one = (req, res, next) => {
@@ -15,6 +17,17 @@ const three = (req, res, next) => {
   console.log("three");
   res.send("Finished!");
 };
+
+// custom middleware logger
+app.use(logger);
+
+app.use(cors());
+
+app.use(express.urlencoded({ extended: false }));
+
+app.use(express.json());
+
+app.use(express.static(path.join(__dirname, "/public")));
 
 app.get(/^\/$|^\/index(\.html)?$/, (req, res) => {
   // app.get("/", (req, res) => {
