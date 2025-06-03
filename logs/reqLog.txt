@@ -231,3 +231,10 @@
 20250601	18:08:24	8244e673-20a2-46da-9509-f1252f654672	POST	undefined	/employees
 20250601	18:08:37	5383f386-734f-4126-8758-759b49505051	PUT	undefined	/employees
 20250601	18:09:02	203214b1-e76e-45e1-b33f-90b8ace48997	DELETE	undefined	/employees
+20250603	14:45:12	8a649672-d65b-4c4d-b637-7a813a21857d	GET	undefined	/
+20250603	14:45:12	43e0206c-a74c-4c91-a434-326e087a36a0	GET	undefined	/css/style.css
+20250603	14:45:12	1d6ea81c-9ea7-45ab-a3cc-e6b1db7d11a8	GET	undefined	/favicon.ico
+20250603	14:45:13	1374cf50-0086-413d-ac96-0de63c5d7517	GET	undefined	/
+20250603	14:45:13	27497f73-dd55-4c1a-94e4-399a44fc0b02	GET	undefined	/css/style.css
+20250603	14:45:15	feae15ec-6502-48fb-923a-b3e036178e25	GET	undefined	/css/style.css
+20250603	14:45:15	febcfeb5-409b-4757-895e-185fe33a8be0	GET	undefined	/.well-known/appspecific/com.chrome.devtools.json
