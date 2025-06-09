@@ -1,3 +1,5 @@
 20250603	15:31:50	b8d2f999-3e24-4b3d-bb7a-5a2c84a03359	TypeError: Cannot read properties of undefined (reading 'id')
 20250603	15:31:56	0bc68622-7860-474f-bf50-e83e69c33b58	TypeError: Cannot read properties of undefined (reading 'id')
 20250603	15:33:28	242f2906-4009-482c-973a-fc37c8650246	SyntaxError: Expected double-quoted property name in JSON at position 52
+20250606	19:22:15	540b73f1-6f45-4375-8720-d75f41022b9d	TypeError: Cannot destructure property 'user' of 'req.body' as it is undefined.
+20250606	19:23:11	e394d2b4-d612-4c26-8518-05d6d3a6db11	TypeError: Cannot destructure property 'user' of 'req.body' as it is undefined.
